@@ -1,5 +1,5 @@
 import styles  from './Button.module.css';
-
+import { v4 as uuidv4 } from 'uuid';
 
 
 export const Buttons=({rate, setRate})=>{
@@ -11,16 +11,17 @@ export const Buttons=({rate, setRate})=>{
 const handleRate=(item)=>{
    setRate(item)
 }
-console.log(rate);
+
     return(
 <div className={styles.buttons}>
   
   {numbers.map((item)=>{
-  return <button onClick={(item)=>handleRate(item)} value={item}
+  return <button onClick={()=>handleRate(item)} key={uuidv4()} value={item}
   className ={styles.buttonsStyle} 
  >{item}  
   </button>
+ 
    })}
 </div>
     )
-}
+} 
