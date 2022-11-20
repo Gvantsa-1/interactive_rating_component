@@ -9,4 +9,11 @@
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 450px) {
+  .App{
+    min-width: 350px;
+    flex-direction: column;
+    padding: 1%;
+  }
+}
 

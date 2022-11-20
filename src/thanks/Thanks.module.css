@@ -1,0 +1,88 @@
+.thanksCard{
+      
+        width:412px;
+        height: 416px;
+        border-radius: 30px;
+        background: radial-gradient(98.96% 98.96% at 50% 0%,
+         #232A34 0%, #181E27 100%);
+    }
+  
+  .thankImg{
+    margin: 45px auto;
+    height: 108px;
+    width: 162px;
+
+  
+  }
+  .thanksText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #FC7614;
+    background-color: #262E38;
+    width: 193px;
+    height: 32px;
+    margin: 0 auto;
+    border-radius: 22.5px;
+    cursor: pointer;
+    margin-top: -9px;
+    font-family: 'Overpass', sans-serif;
+  }
+  .thanksTitle{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35.45px;
+    color:#ffffff;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 0.5px;
+    margin-top: 32px;
+}
+.thanksPar{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin: -7px auto;
+    color: #969FAD;
+    width: 340px;
+
+}
+
+@media screen and (max-width: 450px) {
+       .card{
+        width: 327px;
+        height: 360px;
+        border-radius: 15px;
+        padding: 1%;
+       }
+       .thankImg{
+        margin: 34px auto;
+        height: 96px;
+        width: 144px;
+      
+      }
+      .thanksText{
+        font-size: 14px;
+        line-height: 22px;
+        width: 144px;
+        height: 22px;
+        margin-top: -20px;
+      }
+      .thanksTitle{
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 24px;
+    
+      }
+      .thanksPar{
+        font-size: 14px;
+        line-height: 22px;
+        margin: -13px auto;
+        width: 279px;
+    
+    }
+    }

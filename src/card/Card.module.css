@@ -5,3 +5,65 @@
     background: radial-gradient(98.96% 98.96% at 50% 0%,
      #232A34 0%, #181E27 100%);
 }
+@media screen and (max-width: 450px) {
+   .card{
+    width: 327px;
+    height: 360px;
+    border-radius: 15px;
+   }
+}
+.mainCard{
+   padding: 32px 39px 32px 32px;
+   text-align: start;
+   }
+   
+   .star{
+       background-color:#262E38;
+       border-radius: 50%;
+       width: 16px;
+       height: 16px;
+       padding:16px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+   .title{
+       font-family: 'Overpass', sans-serif;
+       margin-top: 30px;
+       color:#ffffff;
+       font-weight: 700;
+       font-size: 28px;
+   
+   }
+ 
+   .text{
+       font-family: 'Overpass', sans-serif;
+       font-weight: 400;
+       font-size: 15px;
+       line-height: 24px;
+       color: #969FAD;
+       width: 340px;
+   }
+   @media screen and (max-width: 450px) {
+       .mainCard{
+           padding: 24px;
+       }
+       .star{
+       width: 14px;
+       height: 14px;
+       padding:13px;
+       }    
+       .title{
+           font-size: 24px;
+       }
+       .text{
+       font-size: 14px;
+       line-height: 22px;
+       max-width: 279px;
+       }
+   }
+
+   
+
+
+

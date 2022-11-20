@@ -1,0 +1,45 @@
+
+.submitCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:32px  auto;
+}
+.submit{
+    display: flex;
+    background-color:#FC7614; 
+    width: 341px;
+    height: 45px;
+    border-radius:22.5px;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 19px;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 2px;
+    justify-content: center;
+    font-weight: 700;
+    transition: all 0.5s linear;
+    border: none;
+    cursor: pointer;
+
+ 
+}
+.submit:hover{
+    background-color: #ffffff;
+    color: #FC7614;
+}
+
+@media screen and (max-width: 450px) {
+    .submitCont{
+        margin-top: 24px;
+        max-width: 279px;
+        
+    }
+    .submit{
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 auto;
+  
+}
+}

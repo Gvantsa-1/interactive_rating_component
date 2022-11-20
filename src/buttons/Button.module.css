@@ -1,0 +1,54 @@
+.buttonsStyle{
+    border-radius: 50%;
+    color: #7C8798;
+    background-color:#262E38;
+    width: 51px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    padding-left: 10px;
+    margin-top:-25px ;
+}
+ 
+.submitCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.buttonsStyle:hover{
+    background-color:#FC7614 ;
+    color: #ffffff;
+} 
+
+.buttonsStyle:focus{
+    background-color:#7C8798;
+    color:#ffffff
+    
+}
+
+@media screen and (max-width: 450px) {
+    .buttons{
+        max-width:279px ;
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+    .buttonsStyle{
+        width: 42px;
+        height: 42px;
+        font-size: 14px;
+      
+    }
+    }
+    
+
